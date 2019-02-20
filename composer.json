@@ -1,0 +1,21 @@
+{
+  "name": "evalor/co-requests",
+  "description": "Swoole corountine http client like PHP Requests",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "evalor",
+      "email": "mipone@foxmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "evalor\\coRequests\\": "src/"
+    }
+  },
+  "require-dev": {
+    "easyswoole/swoole-ide-helper": "^1.2"
+  }
+}
