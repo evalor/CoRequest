@@ -3,6 +3,11 @@ Swoole Coroutine Http Client
 
 随手封装的不那么自信的HTTP请求库，基于Swoole协程客户端，需要PHP版本7.1+，以及Swoole拓展
 
+## 安装方法
+```bash
+composer require evalor/co-requests
+```
+
 ## 使用方法
 
 ```php
