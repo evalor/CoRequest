@@ -294,10 +294,10 @@ class CoRequests
 
     /**
      * 整体替换POST数据
-     * @param array $postData
+     * @param $postData
      * @return CoRequests
      */
-    function setPostData(array $postData): CoRequests
+    function setPostData($postData): CoRequests
     {
         $this->setIsPost();
         $this->clientPostData = $postData;
